@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outlined/combo_chart@3x</title>
+    <g id="Icon/Outlined/combo_chart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M5.3333333,4.49999996 L5.3333333,17 C5.3333333,17.9108859 6.0891143,18.6666667 6.99999997,18.6666667 L19.5,18.6666667 L19.5,17 L6.99999997,17 L6.99999997,4.49999996 L5.3333333,4.49999996 Z M18.9108075,6.41080731 L15.3333333,9.98828124 L12.8333333,7.48828123 L8.07747398,12.2441408 L9.25585932,13.4225258 L12.8333333,9.84505207 L15.3333333,12.3450517 L20.0891925,7.58919264 L18.9108075,6.41080731 Z" id="combo_chart" fill="#9e9e9e"></path>
+    </g>
+</svg>

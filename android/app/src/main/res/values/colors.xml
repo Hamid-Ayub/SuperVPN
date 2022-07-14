@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#14FFFFFF</color>
+    <color name="colorPrimaryDark">#AD556CEA</color>
+    <color name="colorAccent">#E64B3B</color>
+
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorNavBottomBackground">#AD556CEA</color>
+    <color name="colorNavSelected">@color/colorAccent</color>
+    <color name="colorNavUnSelected">#ffffff</color>
+    <color name="colorBlueActionButton">#AD556CEA</color>
+    <color name="colorBackgroundPremium">#f9f9f9</color>
+    <color name="colorBgSelected">#7ED321</color>
+    <color name="colorBgUnSelected">#AD556CEA</color>
+    <color name="colorTextBlack">#212121</color>
+    <color name="colorTextGray">#adadad</color>
+    <color name="colorTextBlue">#714fff</color>
+    <color name="colorTextButton">#2a2a2c</color>
+    <color name="colorBgSnackbar">#e6514e</color>
+    <color name="colorError">#e6514e</color>
+    <color name="colorLineChart">#714fff</color>
+    <color name="colorBackgroundLineChart">#E64B3B</color>
+    <color name="colorStrokeInput">#714fff</color>
+    <color name="colorInputText">#ffffff</color>
+    <color name="colorConnectButton">#E64B3B</color>
+    <color name="afercolorConnectButton">#72F103</color>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<surf.express.nord.proton.vpn.presentation.widget.bottomnav.BottomNavBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_above="@+id/adView"
+    android:background="@drawable/bg_nav_bottom"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    tools:showIn="@layout/fragment_main_tab">
+
+    <surf.express.nord.proton.vpn.presentation.widget.bottomnav.BottomNavItem
+        android:id="@+id/tab_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:visibility="gone"
+        app:nav_icon="@drawable/ic_nav_home"
+        app:nav_title="@string/nav_tab_1" />
+
+    <surf.express.nord.proton.vpn.presentation.widget.bottomnav.BottomNavItem
+        android:id="@+id/tab_premium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:visibility="gone"
+        app:nav_icon="@drawable/ic_nav_premium"
+        app:nav_title="@string/nav_tab_2" />
+
+    <surf.express.nord.proton.vpn.presentation.widget.bottomnav.BottomNavItem
+        android:id="@+id/tab_profile"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:visibility="gone"
+        app:nav_icon="@drawable/ic_nav_profile"
+        app:nav_title="@string/nav_tab_3" />
+</surf.express.nord.proton.vpn.presentation.widget.bottomnav.BottomNavBar>
