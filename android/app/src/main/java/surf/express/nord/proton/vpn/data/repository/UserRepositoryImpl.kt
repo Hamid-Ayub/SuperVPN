@@ -11,14 +11,15 @@ class UserRepositoryImpl @Inject constructor() : UserRepository {
     @Inject
     lateinit var apiService: ApiService
 
-    override suspend fun login(param: MutableMap<String, Any>): User {
-        val loginResponse = apiService.login(param)
-        return User.fromObject(loginResponse.data)
-    }
 
     override suspend fun register(param: MutableMap<String, Any>): User {
         val response = apiService.signup(param)
         return User.fromObject(response.data)
+    }
+
+    override suspend fun login(param: MutableMap<String, Any>): User {
+        val loginResponse = apiService.login(param)
+        return User.fromObject(loginResponse.data)
     }
 
     override suspend fun otp(param: MutableMap<String, Any>): User {

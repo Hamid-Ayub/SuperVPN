@@ -2,19 +2,19 @@
     <string name="app_name">Super VPN</string>
 
     <string name="nav_tab_1">Vpn</string>
-    <string name="nav_tab_2">Premium</string>
-    <string name="nav_tab_3">Profile</string>
+    <string name="nav_tab_2">Premiuum</string>
+    <string name="nav_tab_3">Profiile</string>
     <string name="select_the_fastest_server">Select the fastest server</string>
     <string name="connect">Connect</string>
     <string name="vpn_servers">VPN Servers</string>
-    <string name="tab_all_location">All Locations</string>
+    <string name="tab_all_location">All Server Locations</string>
     <string name="tab_recommended">Recommended</string>
-    <string name="upload">Upload</string>
-    <string name="download">Download</string>
-    <string name="get_premium_now">Get premium now</string>
+    <string name="upload">Uploaded</string>
+    <string name="download">Downloaded</string>
+    <string name="get_premium_now">Get premium pack now</string>
     <string name="banner_premium_packages">Premium\nPackages</string>
-    <string name="banner_description">Stable and 10 times high speed Watch HD videos without freezing Remove annoyed Ads banners Connect upto 5 different devices</string>
-    <string name="email">Email</string>
+    <string name="banner_description">Stable and 10 times high speed Watch HD videos without freezing Remove annoyed Ads,</string>
+    <string name="email">Email ID</string>
     <string name="edit">Edit</string>
     <string name="account">Account</string>
     <string name="upgrade">Upgrade</string>
@@ -44,12 +44,6 @@
     <string name="reset_password_email">Reset password email</string>
     <string name="message_reset_password_email">We sent a reset password email to your inbox. Please check and click the link inside to set up your new password</string>
     <string name="ok">OK</string>
-    <string name="title_private_policy">Private Policy</string>
-    <string name="private_policy_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque et nulla et pulvinar. Ut sodales convallis nisl sed interdum. Phasellus fermentum convallis purus, vel tincidunt lectus suscipit eu. Nulla ac pretium augue. Sed sollicitudin fermentum leo sed pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis quam sit amet arcu suscipit aliquet. Nam sollicitudin sagittis lectus, sed euismod turpis efficitur volutpat. Sed pulvinar dui sed mi elementum imperdiet. Nulla ipsum nunc, mollis in libero sit amet, commodo eleifend tortor. Vivamus lobortis vel libero vitae sodales. Nullam convallis lorem leo, id tincidunt sapien interdum sed. Nullam non enim vestibulum, suscipit nibh eu, elementum arcu. Donec rhoncus, libero ut gravida tincidunt, erat tellus tincidunt turpis, facilisis placerat justo nibh tincidunt dui. Donec erat quam, finibus a faucibus eu, cursus a risus. Sed auctor molestie odio ac molestie. Phasellus tempor lorem eu mi ullamcorper, sit amet scelerisque nibh tincidunt. Vestibulum magna neque, convallis ut nisi ac, scelerisque feugiat orci. Sed id dolor diam. Aenean ut venenatis leo.</string>
-    <string name="new_password">New Password</string>
-    <string name="hint_new_password">New password</string>
-    <string name="hint_confirm_new_password">Confirm new password</string>
-    <string name="confirm_new_password">Confirm new password</string>
     <string name="message_password_was_changed">Your password was changed successfully</string>
     <string name="something_wrong">Something wrong.</string>
     <string name="please_try_again">Please try again</string>
@@ -74,4 +68,10 @@
     <string name="resend_code">Resend code</string>
     <string name="message_invalid_otp">Invalid confirmation code</string>
     <string name="label_purchase_info">You current account is %s premium package until %s. If you want to cancel / upgrade / downgrade, please access your subscription account</string>
+    <string name="title_private_policy">Private Policy</string>
+    <string name="private_policy_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque et nulla et pulvinar. Ut sodales convallis nisl sed interdum. Phasellus fermentum convallis purus, vel tincidunt lectus suscipit eu. Nulla ac pretium augue. Sed sollicitudin fermentum leo sed pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis quam sit amet arcu suscipit aliquet. Nam sollicitudin sagittis lectus, sed euismod turpis efficitur volutpat. Sed pulvinar dui sed mi elementum imperdiet. Nulla ipsum nunc, mollis in libero sit amet, commodo eleifend tortor. Vivamus lobortis vel libero vitae sodales. Nullam convallis lorem leo, id tincidunt sapien interdum sed. Nullam non enim vestibulum, suscipit nibh eu, elementum arcu. Donec rhoncus, libero ut gravida tincidunt, erat tellus tincidunt turpis, facilisis placerat justo nibh tincidunt dui. Donec erat quam, finibus a faucibus eu, cursus a risus. Sed auctor molestie odio ac molestie. Phasellus tempor lorem eu mi ullamcorper, sit amet scelerisque nibh tincidunt. Vestibulum magna neque, convallis ut nisi ac, scelerisque feugiat orci. Sed id dolor diam. Aenean ut venenatis leo.</string>
+    <string name="new_password">New Password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_new_password">Confirm new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
 </resources>

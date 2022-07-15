@@ -3,12 +3,7 @@ package surf.express.nord.proton.vpn.data.remote.model
 
 import com.google.gson.annotations.SerializedName
 
-data class AdsResponse(
-    @SerializedName("data")
-    val data: List<surf.express.nord.proton.vpn.data.remote.model.AdsObject>,
-    @SerializedName("success")
-    val success: Int
-)
+
 
 data class AdsObject(
     @SerializedName("adsId")
@@ -25,4 +20,11 @@ data class AdsObject(
     val id: String,
     @SerializedName("__v")
     val v: Int
+)
+
+data class AdsResponse(
+    @SerializedName("data")
+    val data: List<surf.express.nord.proton.vpn.data.remote.model.AdsObject>,
+    @SerializedName("success")
+    val success: Int
 )

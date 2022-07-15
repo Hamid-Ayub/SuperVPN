@@ -2,11 +2,6 @@ package surf.express.nord.proton.vpn.data.remote.model
 
 import com.google.gson.annotations.SerializedName
 
-data class LoginResponse(
-    val data: surf.express.nord.proton.vpn.data.remote.model.UserObject? = null,
-    val success: Int? = null,
-    val message: String? = null
-)
 
 data class UserObject(
     @SerializedName("createdAt")
@@ -17,4 +12,10 @@ data class UserObject(
     val lastName: String? = null,
     @SerializedName("isAnonymous")
     val isAnonymous: Boolean = false
+)
+
+data class LoginResponse(
+    val data: surf.express.nord.proton.vpn.data.remote.model.UserObject? = null,
+    val success: Int? = null,
+    val message: String? = null
 )

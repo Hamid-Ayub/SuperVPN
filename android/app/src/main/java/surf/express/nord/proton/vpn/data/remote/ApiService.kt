@@ -29,6 +29,10 @@ interface ApiService {
     @FormUrlEncoded
     suspend fun createAnonymousUser(@FieldMap param: MutableMap<String, Any>): surf.express.nord.proton.vpn.data.remote.model.LoginResponse
 
+    @POST("user/subscription")
+    @FormUrlEncoded
+    suspend fun subscription(@FieldMap param: MutableMap<String, Any>)
+
     @POST("user/updateTotalUploadDownload")
     @FormUrlEncoded
     suspend fun updateTotalUploadDownload(@FieldMap param: MutableMap<String, Any>): surf.express.nord.proton.vpn.data.remote.model.LoginResponse
@@ -41,7 +45,4 @@ interface ApiService {
     @FormUrlEncoded
     suspend fun ads(@FieldMap param: MutableMap<String, Any>): surf.express.nord.proton.vpn.data.remote.model.AdsResponse
 
-    @POST("user/subscription")
-    @FormUrlEncoded
-    suspend fun subscription(@FieldMap param: MutableMap<String, Any>)
 }

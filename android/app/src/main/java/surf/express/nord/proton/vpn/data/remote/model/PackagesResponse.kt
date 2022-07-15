@@ -2,10 +2,6 @@ package surf.express.nord.proton.vpn.data.remote.model
 
 import com.google.gson.annotations.SerializedName
 
-data class PackagesResponse(
-    val data: List<surf.express.nord.proton.vpn.data.remote.model.PackageObject>,
-    val success: Int
-)
 
 data class PackageObject(
     @SerializedName("createdAt")
@@ -24,4 +20,9 @@ data class PackageObject(
     var packagePricing: Int?,
     @SerializedName("__v")
     var v: Int?
+)
+
+data class PackagesResponse(
+    val data: List<surf.express.nord.proton.vpn.data.remote.model.PackageObject>,
+    val success: Int
 )
