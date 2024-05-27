@@ -1,3 +1,3 @@
 # SuperVPN
 firstCommit
-VPN For cloning purpose
+Super Vpn fast and secure
